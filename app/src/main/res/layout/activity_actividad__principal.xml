@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Actividad_Principal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/lblHambuerguesa"
+            android:layout_width="211dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="P1" />
+
+        <TextView
+            android:id="@+id/lblprecioHam"
+            android:layout_width="238dp"
+            android:layout_height="35dp"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/txtHamburguesa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Cantidad" />
+    </LinearLayout>
+    //nombre
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/lblCerveza"
+            android:layout_width="210dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="P2" />
+
+        <TextView
+            android:id="@+id/lblprecioCerveza"
+            android:layout_width="238dp"
+            android:layout_height="35dp"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/txtCerveza"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Cantidad"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+    //precio
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/lblEnsalada"
+            android:layout_width="211dp"
+            android:layout_height="54dp"
+            android:layout_weight="1"
+            android:text="P3" />
+
+        <TextView
+            android:id="@+id/lblPrecioEnsalada"
+            android:layout_width="238dp"
+            android:layout_height="35dp"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/txtEmsalada"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Cantidad"  />
+    </LinearLayout>
+    //Stock
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/lblSalchipapas"
+            android:layout_width="229dp"
+            android:layout_height="39dp"
+            android:layout_weight="1"
+            android:text="P4" />
+
+        <TextView
+            android:id="@+id/lblPrecioSalch"
+            android:layout_width="238dp"
+            android:layout_height="35dp"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/txtSalchipapa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Cantidad"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnComprar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular" />
+
+    <TextView
+        android:id="@+id/lblResultado"
+        android:layout_width="match_parent"
+        android:layout_height="273dp"
+        android:hint="Pagar" />
+</LinearLayout>
